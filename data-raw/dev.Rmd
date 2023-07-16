@@ -16,7 +16,7 @@ tha3_sim <- st_read("data-raw/geojson/th_adm3.geojson") %>% clean_names()
 
 ```{r}
 tha2_sim |>
-  filter(adm1_th == "บึงกาฬ") |>
+  filter(adm1_th == "") |>
   st_drop_geometry() |>
   arrange(adm2_pcode)
 ```
