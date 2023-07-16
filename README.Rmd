@@ -22,22 +22,6 @@ An R package storing ligtweight geospatial polygon data of Thailand administrati
   * Simplification menu : check prevent shape removal  
   * Method : Visvalingam / effective area  
 
-
-# แผนที่ไทย
-R package ที่มีไฟล์แผนที่ขนาดเล็กของไทย เหมาะสำหรับการทำ data visualization มีไฟล์ทั้ง 
-geojson และ rda (ในรูปแบบ class `sf`) โดยแผนที่ไทยมี 3 ระดับ ได้แก่ จังหวัด อำเภอ และตำบล
-ดูรายละเอียดเพิ่มเติมได้ที่ [package website](https://piyayut-ch.github.io/mapthai/)
-
-**หมายเหตุ:**  
-- แผนที่ไทยโหลดมาจาก [UNOCHA](https://data.humdata.org/dataset/thailand-administrative-boundaries)  
-- แหล่งข้อมูล: กรมแผนที่ทหาร เมื่อวันที่ 6 พ.ย. 2562  
-- ลดขนาดของแผนที่ (simplify) ด้วย webtool ที่ชื่อ [mapshaper](https://mapshaper.org)  
-  โดยเลือกปรับแต่งค่าต่าง ๆ ดังนี้  
-  * Import Options : detect line intersections  
-  * Simplification menu : check prevent shape removal  
-  * Method : Visvalingam / effective area  
-
-
 ## Installation
 
 You can install the released version of mapthai from [github repo](https://github.com/piyayut-ch/mapthai) with:
